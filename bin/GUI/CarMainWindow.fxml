@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="259.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.CarMainWindowController">
+   <top>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="472.0" BorderPane.alignment="CENTER">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="379.0">
+               <items>
+                  <Button fx:id="AddButton" mnemonicParsing="false" onAction="#doAdd" prefHeight="26.0" prefWidth="80.0" text="Add" />
+                  <Separator orientation="VERTICAL" prefHeight="10.0" />
+                  <Button fx:id="UpdateButton" mnemonicParsing="false" onAction="#doUpdate" prefHeight="26.0" prefWidth="80.0" text="Update" />
+                  <Separator orientation="VERTICAL" prefHeight="10.0" />
+                  <Button fx:id="DeleteButton" mnemonicParsing="false" onAction="#doDelete" prefHeight="26.0" prefWidth="80.0" text="Delete" />
+                  <Separator orientation="VERTICAL" prefHeight="10.0" />
+                  <Button fx:id="SaveButton" mnemonicParsing="false" onAction="#doSave" prefHeight="26.0" prefWidth="80.0" text="Save" />
+               </items>
+            </ToolBar>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <TableView fx:id="CarTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="469.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="plateNoCol" prefWidth="136.66665649414062" text="Plate number" />
+          <TableColumn fx:id="modelCol" prefWidth="120.0" text="Model" />
+            <TableColumn fx:id="typeCol" prefWidth="91.33334350585938" text="Type" />
+            <TableColumn fx:id="availableCol" prefWidth="128.00006103515625" text="Availability" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

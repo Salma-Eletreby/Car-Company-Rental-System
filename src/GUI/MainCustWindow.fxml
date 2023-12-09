@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainCustomerController">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="265.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleAddCust" text="Add" />
+            <Button fx:id="updateButton" mnemonicParsing="false" onAction="#handleUpdateCust" text="Update" />
+            <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#handleDeleteCust" text="Delete" />
+            <Button fx:id="saveButton" mnemonicParsing="false" onAction="#handleSaveCust" text="Save" />
+        </items>
+      </ToolBar>
+   </top>
+   <center>
+      <TableView fx:id="custTableView" prefHeight="200.0" prefWidth="675.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="ID" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="Name" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="Phone" prefWidth="75.0" text="Phone" />
+          <TableColumn fx:id="Address" prefWidth="75.0" text="Address" />
+            <TableColumn fx:id="Nationality" prefWidth="75.0" text="Nationality" />
+            <TableColumn fx:id="PassportNo" prefWidth="75.0" text="PassportNo" />
+            <TableColumn fx:id="DrivingLicence" prefWidth="75.0" text="DrivingLicence" />
+            <TableColumn fx:id="EntryDate" prefWidth="75.0" text="EntryDate" />
+            <TableColumn fx:id="ExpiryDate" prefWidth="75.0" text="ExpiryDate" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
