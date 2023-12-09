@@ -42,5 +42,6 @@ A Java group project that uses Java FX to build a GUI to make it easier for the 
   <img src="https://github.com/Salma-Eletreby/Car-Company-Rental-System/assets/142803990/57ce7335-34d1-4921-8d95-345fc5197a30" alt="image" width="500" height="300">
   <img src="https://github.com/Salma-Eletreby/Car-Company-Rental-System/assets/142803990/1dbbf881-7803-4843-acfd-c6b079e1a4fb" alt="image" width="500" height="300">
   <img src="https://github.com/Salma-Eletreby/Car-Company-Rental-System/assets/142803990/2f6d1c1f-3992-49cd-9b23-1047eb5a0673" alt="image" width="250" height="300">
+   <img src="https://github.com/Salma-Eletreby/Car-Company-Rental-System/assets/142803990/1885d681-de7c-4d0c-8634-08f570673877" alt="image" width="250" height="300">
   <img src="https://github.com/Salma-Eletreby/Car-Company-Rental-System/assets/142803990/cf36dcfc-394e-40ee-8a3f-3de24cfcc054" alt="image" width="250" height="300">
 </div>
